@@ -29,7 +29,8 @@ print(f"The average of three numbers is {avg}")
 
 #Using recursion in python
 def sum(n):
-    if(i==1):
+    if(n==1):
         return n;
     else:
         return n+sum(n-1)
+print(sum(4))

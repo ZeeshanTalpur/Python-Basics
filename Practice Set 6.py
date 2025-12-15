@@ -26,7 +26,7 @@ while i<=10:
     i+=1
 
 list=[1,4,9,16,25,36,49,64,81,100]
-i=1
+i=0
 while i<len(list):
     print(list[i])
     i+=1
@@ -68,14 +68,14 @@ for i in range(1,11):
     print(f"{n} * {i} = {n*i}")
 
 #Problem 10: Write a program to print the sum of first n numbers
-limit =int(input("Write the value of n"))
+limit =int(input("Write the value of n: "))
 sum=0
 i=1
 while(i<=limit):
     sum+=i
     i+=1
 else:
-    print(f"The sum of n natural numbers is {sum}")
+    print(f"The sum of {limit} natural numbers is {sum}")
 
 #Problem 11: Write a program to find the factorial of a number(using for)
 n=int(input("Write the number you want the factorial of:"))

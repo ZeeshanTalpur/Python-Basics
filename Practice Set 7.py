@@ -27,10 +27,12 @@ print(f"The amount in INR is {convert(usd)}")
 
 #Problem 5: Write a recursive function to calculate the sum of n natural numbers
 def sum(n):
-    if(i==1):
+    if(n==1):
         return n;
     else:
         return n+sum(n-1)
+n=int(input("Write the number upto which you need the sum of natural numbers: "))
+print(sum(n))
 
 #Problem 6: Write a recursive function to print the elements of a list, use list and index as a parameter
 def list_print(list,idx=0):

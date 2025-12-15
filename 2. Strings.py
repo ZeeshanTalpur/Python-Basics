@@ -9,6 +9,8 @@ print(str3)
 #concatenation
 print(str1+str2+str3)
 print(str1+" "+str2+" "+str3)
+str4=str1+str2+str3
+print(str4)
 
 #length of string
 print(len(str1))

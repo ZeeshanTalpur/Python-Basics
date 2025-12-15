@@ -66,6 +66,7 @@ dictionary.update(dictionary2)
 print(dictionary)
 dictionary.update({"city" : "dadu"})
 print(dictionary)
+print(dictionary2)
 
 #Creating a Set
 set1={1,2,3,3,2,1}
